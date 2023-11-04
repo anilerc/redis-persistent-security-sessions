@@ -3,6 +3,10 @@ package dev.anilerc.securitywithredis.user;
 import jakarta.persistence.*;
 import jdk.jfr.DataAmount;
 import lombok.*;
+import org.springframework.core.serializer.support.SerializingConverter;
+
+import java.io.Serial;
+import java.io.Serializable;
 
 @Entity
 @Builder
@@ -10,7 +14,7 @@ import lombok.*;
 @Getter
 @AllArgsConstructor
 @NoArgsConstructor
-public class UserEntity {
+public class UserEntity implements Serializable {
 
     @Id
     @SequenceGenerator(

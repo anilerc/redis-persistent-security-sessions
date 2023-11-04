@@ -39,6 +39,7 @@ public class SecurityConfiguration {
                                 .anyRequest().authenticated())
                                 .csrf(AbstractHttpConfigurer::disable).
                 logout(logout -> logout.logoutSuccessUrl("/login").logoutUrl("/logout")).
+                securityContext(context -> context.securityContextRepository(securityContextRepository())).
                 httpBasic(Customizer.withDefaults()).
                         build();
 

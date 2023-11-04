@@ -1,6 +1,4 @@
 spring:
-  session:
-    store-type: redis
   datasource:
     url: jdbc:postgresql://localhost:5432/sec
     username: postgres
