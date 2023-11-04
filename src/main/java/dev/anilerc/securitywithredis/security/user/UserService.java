@@ -1,8 +1,6 @@
-package dev.anilerc.securitywithredis.user;
+package dev.anilerc.securitywithredis.security.user;
 
 import lombok.AllArgsConstructor;
-import org.springframework.security.authentication.AuthenticationProvider;
-import org.springframework.security.crypto.bcrypt.BCrypt;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 

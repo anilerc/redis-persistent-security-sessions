@@ -1,6 +1,6 @@
 package dev.anilerc.securitywithredis.security;
 
-import dev.anilerc.securitywithredis.user.UserEntity;
+import dev.anilerc.securitywithredis.security.user.UserEntity;
 import lombok.AllArgsConstructor;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
