@@ -15,7 +15,7 @@ public class ApplicationUser implements UserDetails {
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         return null;
-    }
+    } // No roles implemented for now. Can be extended if needed.
 
     @Override
     public String getPassword() {
