@@ -32,10 +32,10 @@ public class SecurityConfiguration {
 
         return http.authorizeHttpRequests(auth ->
                         auth.
-                                requestMatchers("/register", "/login", "/logout").permitAll()
+                                requestMatchers("/api/v1/auth/**").permitAll()
                                 .anyRequest().authenticated())
                                 .csrf(AbstractHttpConfigurer::disable)
-                                .logout(logout -> logout.logoutSuccessUrl("/login").logoutUrl("/logout"))
+                                .logout(Customizer.withDefaults())
                                 .securityContext(context -> context.securityContextRepository(securityContextRepository()))
                                 .httpBasic(Customizer.withDefaults()).
                         build();
