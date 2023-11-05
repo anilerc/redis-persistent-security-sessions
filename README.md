@@ -30,4 +30,4 @@ Thanks for reading!
 
 # FURTHER REFERENCE
 
-[[JSON Web Tokens (JWT) are Dangerous for User Sessions]([URL](https://redis.com/blog/json-web-tokens-jwt-are-dangerous-for-user-sessions/)https://redis.com/blog/json-web-tokens-jwt-are-dangerous-for-user-sessions/)]
+[JSON Web Tokens Are Dangerous For User Sessions - REDIS](https://redis.com/blog/json-web-tokens-jwt-are-dangerous-for-user-sessions/)
