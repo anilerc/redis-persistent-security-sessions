@@ -1,4 +1,4 @@
-package dev.anilerc.securitywithredis.security.user;
+package dev.anilerc.securitywithredis.user;
 
 import jakarta.persistence.*;
 import jdk.jfr.DataAmount;
