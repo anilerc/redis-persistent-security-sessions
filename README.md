@@ -1,4 +1,4 @@
-# MOTIVATION & IDEA: WHAT I ACHIEVED HERE?
+# MOTIVATION & IDEA
 
 Traditionally, web applications managed user sessions by generating a unique SessionID for each user session, storing it on the server, and then requiring that it be sent with each client request.
 
